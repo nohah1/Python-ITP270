@@ -1,0 +1,12 @@
+#!/bin/python3
+#Create a variable for your name, age, and degree program.
+
+name = input("My name is Nohah Zaid.")
+age = input("I am 21 years old.")
+degree = input("I am in the Cybersecurity program for my Associates degree.")
+
+#The remaining age
+remaining_age = 21 * 3 % 2
+
+#Print the message
+print (name + age + degree + remaining_age)
